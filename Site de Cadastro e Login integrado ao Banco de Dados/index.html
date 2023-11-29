@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="signup-box">
+    <h1>Cadastre-se</h1>
+    <h4>Servico gratuito, nao custa nem $1</h4>
+    <form action="cadastro.php" method="post">
+      <label>Nome</label>
+      <input type="text" name="nome" placeholder="" />
+      <label>Usuario</label>
+      <input type="text" name="usuario1" placeholder="" />
+      <label>Email</label>
+      <input type="email" name="email" placeholder="" />
+      <label>Senha</label>
+      <input type="password" name="senha" placeholder="" required/>
+      <label>Confirmar Senha</label>
+      <input type="password" name="confirmar_senha" placeholder="" required/>
+      <button type="submit" name="cadastrar">Cadastrar</button>
+    </form>
+    <p>
+      Ao clicar no botao Cadastre-se, voce concorda com nossos <br />
+      <a href="#">Termos de venda de alma</a> e <a href="#">Politica spectral</a>
+    </p>
+  </div>
+  <p class="para-2">
+    Ja e de casa? <a href="login.php">Clique aqui</a>
+  </p>
+</body>
+</html>
